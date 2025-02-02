@@ -5,15 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   
   <title>Frontend Mentor | Blog preview card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-
 </head>
 <body class="grid h-screen justify-center content-center bg-[#F4D04E]">
-  <section class="bg-[#FFFFFF] w-[384px] h-[522px] rounded-[20px] ring-[8px_8px_#000]"" ></section>
-
+  <main class="flex flex-col gap-6 bg-[#FFFFFF] w-[327px] h-[501px] md:w-[384px] md:h-[522px] rounded-[20px] shadow-[8px_8px_#000]" >
+    <div class="mx-6 mt-6 flex max-h-[200px] max-w-[279px] md:max-w-[336px] rounded-[10px]">
+      <img 
+        src= "assets/images/illustration-article.svg" 
+        alt="Illustration"
+        class="rounded-[10px] object-cover"   
+      />
+    </div>
+      
+    <section class="flex flex-col font-[figtree] mx-6 self-start items-start gap-3">
+      <p class="py-1 px-3 bg-[#F4D04E] rounded-[4px] font-extrabold text-sm leading-[1.5]">
+        Learning
+      </p>
+      <p class="font-medium text-sm leading-[1.5]">
+        Published 21 Dev 2023
+      </p>
+      <p class="font-extrabold text-2xl leading-[1.5] hover:text-[#F4D04E]">
+        HTML & CSS foundations
+      </p>
+      <p class="font-medium text-[#6B6B6B] leading-[1.5] ">
+        These languages are the backbbone of every website, defining structure, content, and presentation.
+      </p>
+    </section>
+    <section class="flex flex-row gap-3 self-start content-center px-6">
+      <img class="object-contain h-[32px] w-[32px]" src="/assets/images/image-avatar.webp"/>
+      <p class="font-extrabold text-sm self-center">Greg Hooper</p>
+    </section>
+  </main>
 </body>
 </html>
