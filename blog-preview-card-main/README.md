@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/p0sin/Frontend-Mentor/tree/main/blog-preview-card-main)
+- Live Site URL: [Site URL](https://p0sin.github.io/Frontend-Mentor/blog-preview-card-main/index.html)
 
 ## My process
 
